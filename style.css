@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+    font-family: "Sedan", serif;
+    min-height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg);
+background-repeat: no-repeat;
+background-size: contain;
+background-color:  hsl(225, 100%, 94%);
+position: relative;
+}
+.container{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%); 
+max-width: 450px;
+background: white;
+border-radius: 20px;
+overflow: hidden;
+
+
+}
+.text-content{
+    padding: 7%;
+    text-align: center;
+}
+
+.title{
+    color: hsl(223 , 47% , 23%);
+    font-weight: 900px;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.text-content p.sub-title{
+color: #8a8a8a;
+margin-bottom: 25px;
+}
+
+.plain-box{
+    background: hsl(225 , 100% ,98%);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+.plain-box-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.plan{
+    margin-left: 20px;
+}
+
+.plan h5{
+    color: hsl(223 , 47% , 23%);
+    font-weight: 900px;
+    font-size: 32px;
+}
+
+.plan p{
+    font-size: 12px;
+    color: #8a8a8a;
+}
+
+.plain-box a{
+    font-weight: 900;
+    color: hsl(223 , 47% , 23%);
+
+}
+
+.proceed-btn{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(182, 75%, 52%);
+    padding: 20px 0;
+    border-radius: 12px;
+margin: 30px 0;
+font-size: 16px;
+font-weight: 700;
+
+
+
+}
+
+.cancel-btn{
+    color: #8a8a8a;
+    text-decoration: none;
+    font-weight: 900;
+}
